@@ -73,6 +73,7 @@ main {
     nav {
         font-size: 0.8em;
         margin-top: 0;
+        margin-right: 0;
     }
     li.nav {
         padding: 0.6em;
