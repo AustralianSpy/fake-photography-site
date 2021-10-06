@@ -30,6 +30,16 @@ footer {
     width: 100%;
 }
 
+footer::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: -1em;
+    height: 1px;
+    width: 100%;
+    border-top: 2px solid #a8a8a8;
+}
+
 a#cc {
     color: black;
     font-weight: 600;
@@ -59,6 +69,14 @@ a#cc:hover {
         font-size: 1.2em;
         padding: 0 0.5rem 1rem;
         text-align: left;
+    }
+    footer::before {
+        content: "";
+        position: absolute;
+        left: 0.5rem;
+        top: -1em;
+        height: 1px;
+        width: 50%;
     }
 }
 
