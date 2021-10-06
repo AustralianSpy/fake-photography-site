@@ -4,4 +4,4 @@ This project is a practice website using photos and images under Creative Common
 
 ## Build
 
-This project uses HTML, CSS, and Javascript.
+This project uses HTML, CSS, and Javascript, and is mobile-responsive.
